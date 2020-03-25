@@ -24,7 +24,7 @@ button.addActionListener(this);
 	public void actionPerformed(ActionEvent e) {
 		JLabel buttonPressed = (JLabel) e.getSource();
 		JOptionPane.showMessageDialog(null, "hi");
-		if(buttonPressed==buttonPressed) {
+		if(buttonPressed==) {
 			pressed=pressed+1;
 			System.out.println(pressed);
 		}
